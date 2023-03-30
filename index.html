@@ -12,6 +12,14 @@
 </head>
 <body>
 
+    <!-- page loader start -->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- page loader end -->
+
     <!-- background circle start -->
     <div class="bg-circles">
         <div class="circle-1"></div>
@@ -27,7 +35,7 @@
     <!-- overlay end -->
 
     <!-- main starts -->
-    <div class="main">
+    <div class="main hidden">
 
         <!-- Header start -->
         <header class="header">
@@ -52,7 +60,7 @@
         <!-- Header end -->
 
         <!-- home section start -->
-        <section class="home-section align-items-center active" id="home">
+        <section class="home-section align-items-center" id="home">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="home-text">
@@ -92,12 +100,19 @@
                             the organization's growth and to enhance my knowledge about new and emerging trends in the IT sector.</p>
                         <h3>skills</h3>
                         <div class="skills">
-                            <div class="skills-item">html</div>
-                            <div class="skills-item">css</div>
-                            <div class="skills-item">java</div>
-                            <div class="skills-item">python</div>
-                            <div class="skills-item">php</div>
-                            <div class="skills-item">javascript</div>
+                                <div class="skills-item">HTML</div>
+                                <div class="skills-item">CSS</div>
+                                <div class="skills-item">java</div>
+                                <div class="skills-item">php</div>
+                                <div class="skills-item">python</div>
+                                <div class="skills-item">MySQL</div>
+                                <div class="skills-item">MongoDB</div>
+                                <div class="skills-item">NodeJs</div>
+                                <div class="skills-item">bootstrap</div>
+                                <div class="skills-item">Git</div>
+                                <div class="skills-item">Docker</div>
+                                <div class="skills-item">MS Word</div>
+                                <div class="skills-item">MS Excel</div>        
                         </div>
                         <div class="about-tabs">
                             <button type="button" class="tab-item active" data-target="#education">education</button>
@@ -173,9 +188,9 @@
                     <!-- project item start -->
                     <div class="pp-item">
                         <div class="pp-item-thumbnail">
-                            <img src="img/projects/1.jpg" alt="project item thumb">
+                            <img src="img/projects/1.PNG" alt="project item thumb">
                         </div>
-                        <h3 class="pp-item-title">Shopping Cart Using NodeJS</h3>
+                        <h3 class="pp-item-title">Shopping Cart Using NodeJs</h3>
                         <button type="button" class="btn view-project-btn">view project</button>
                         <div class="pp-item-details">
                             <div class="description">
@@ -184,7 +199,7 @@
                             <div class="general-info">
                                 <ul>
                                     <li>Created - <span>Dec 05, 2021</span></li>
-                                    <li>technologies used - <span>NodeJS, VanillaJS, ExpressJS, MongoDB</span></li>
+                                    <li>technologies used - <span>NodeJs, VanillaJs, ExpressJs, MongoDB</span></li>
                                     <li>GitHub link - <span><a href="https://github.com/joy2441139/Shopping-Cart-Using-NodeJS.git" target="_blank">joy2441139/Shopping-Cart-Using-NodeJS</a></span></li>
                                 </ul>
                             </div>
@@ -194,19 +209,19 @@
                     <!-- project item start -->
                     <div class="pp-item">
                         <div class="pp-item-thumbnail">
-                            <img src="img/projects/2.jpg" alt="project item thumb">
+                            <img src="img/projects/2.PNG" alt="project item thumb">
                         </div>
-                        <h3 class="pp-item-title">E-Commerce Site Using NextJs</h3>
+                        <h3 class="pp-item-title">Responsive Portfolio Website</h3>
                         <button type="button" class="btn view-project-btn">view project</button>
                         <div class="pp-item-details">
                             <div class="description">
-                                <p>This is an e-commerce site project where an admin can add items and a customer can buy/order preferable items</p>
+                                <p>This is my responsive personal portfolio website using HTML, CSS & JavaScript</p>
                             </div>
                             <div class="general-info">
                                 <ul>
-                                    <li>Created - <span>Jan 04, 2022</span></li>
-                                    <li>technologies used - <span>NextJs, MongoDB</span></li>
-                                    <li>GitHub link - <span><a href="https://github.com/joy2441139/E-Commerce-Site-Using-NextJs.git" target="_blank">joy2441139/E-Commerce-Site-Using-NextJs</a></span></li>
+                                    <li>Created - <span>Mar 29, 2023</span></li>
+                                    <li>technologies used - <span>HTML, CSS, JavaScript</span></li>
+                                    <li>GitHub link - <span><a href="https://github.com/joy2441139/My-Responsive-Portfolio-Website.git" target="_blank">joy2441139/My-Responsive-Portfolio-Website</a></span></li>
                                 </ul>
                             </div>
                         </div>
@@ -226,7 +241,7 @@
                             <div class="general-info">
                                 <ul>
                                     <li>Created - <span>Sep 27, 2022</span></li>
-                                    <li>technologies used - <span>ReactJS, Python-Flask, MySQL, Selenium</span></li>
+                                    <li>technologies used - <span>ReactJs, Python-Flask, MySQL, Selenium</span></li>
                                     <li>GitHub link - <span><a href="https://github.com/joy2441139/Fullstack-Flask-React-Application-with-Selenium-MySQL.git" target="_blank">joy2441139/Fullstack-Flask-React-Application-with-Selenium-MySQL</a></span></li>
                                 </ul>
                             </div>
@@ -236,28 +251,7 @@
                     <!-- project item start -->
                     <div class="pp-item">
                         <div class="pp-item-thumbnail">
-                            <img src="img/projects/4.jpg" alt="project item thumb">
-                        </div>
-                        <h3 class="pp-item-title">Dockerize a NodeJS application</h3>
-                        <button type="button" class="btn view-project-btn">view project</button>
-                        <div class="pp-item-details">
-                            <div class="description">
-                                <p>This is a NodeJS application that logs the current date and time to the console when run. Also containerized this application using docker so that running this docker container should run the application too.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Created - <span>Oct 04, 2022</span></li>
-                                    <li>technologies used - <span>NodeJs, Docker</span></li>
-                                    <li>GitHub link - <span><a href="https://github.com/joy2441139/Dockerize-a-NodeJS-application.git" target="_blank">joy2441139/Dockerize-a-NodeJS-application</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- project item end -->
-                    <!-- project item start -->
-                    <div class="pp-item">
-                        <div class="pp-item-thumbnail">
-                            <img src="img/projects/5.jpg" alt="project item thumb">
+                            <img src="img/projects/5.PNG" alt="project item thumb">
                         </div>
                         <h3 class="pp-item-title">Car Wash Management System</h3>
                         <button type="button" class="btn view-project-btn">view project</button>
@@ -270,6 +264,27 @@
                                     <li>Created - <span>Dec 29, 2021</span></li>
                                     <li>technologies used - <span>PHP, MySQL</span></li>
                                     <li>GitHub link - <span><a href="https://github.com/joy2441139/Car-Wash-Management-System.git" target="_blank">joy2441139/Car-Wash-Management-System</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project item end -->
+                    <!-- project item start -->
+                    <div class="pp-item">
+                        <div class="pp-item-thumbnail">
+                            <img src="img/projects/4.jpg" alt="project item thumb">
+                        </div>
+                        <h3 class="pp-item-title">Dockerize a NodeJs application</h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="pp-item-details">
+                            <div class="description">
+                                <p>This is a NodeJS application that logs the current date and time to the console when run. Also containerized this application using docker so that running this docker container should run the application too.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>Oct 04, 2022</span></li>
+                                    <li>technologies used - <span>NodeJs, Docker</span></li>
+                                    <li>GitHub link - <span><a href="https://github.com/joy2441139/Dockerize-a-NodeJS-application.git" target="_blank">joy2441139/Dockerize-a-NodeJS-application</a></span></li>
                                 </ul>
                             </div>
                         </div>
