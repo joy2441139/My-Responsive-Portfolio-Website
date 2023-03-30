@@ -88,3 +88,20 @@ function projectItemDetails(projectItem){
     document.querySelector(".pp-body").innerHTML = projectItem.querySelector(".pp-item-details").innerHTML;
 
 }
+
+/*Send email from contact form*/
+function sendEmail(){
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "tanvirahmedjoy2441139@gmail.com",
+        Password : "435E0335859B5C1592A9656C4D0FA6D4F992",
+        To : 'tanvir.joy2419@gmail.com',
+        From : 'tanvirahmedjoy2441139@gmail.com',
+        Subject : document.getElementById("subject").value,
+        Body : "Name: " + document.getElementById("name").value +
+                "<br> Email: " + document.getElementById("email").value +
+                "<br> Message: " + document.getElementById("message").value
+    }).then(
+      message => alert(message)
+    );
+}
